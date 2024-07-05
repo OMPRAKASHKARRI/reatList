@@ -1,0 +1,88 @@
+/* Styles for the main container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  min-height: 100vh;
+}
+
+/* Styles for the todos container */
+.simple-todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .simple-todos-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+
+/* Styles for the heading */
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+/* Styles for the todo list */
+.todos-list {
+  padding-left: 0px;
+}
+
+/* Styles for the add todo container */
+.add-todo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+/* Styles for the input field */
+.todo-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+/* Styles for the add button */
+.add-btn {
+  background-color: #ff8542;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .add-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
